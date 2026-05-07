@@ -6,7 +6,7 @@ env:
   AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
 jobs:
    iac:
-     runs_on: ubuntu-latest
+     runs-on: ubuntu-latest
      steps:
      - name: checkout the code
        uses: actions/checkout@v6
